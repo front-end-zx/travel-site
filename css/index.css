@@ -1,0 +1,293 @@
+::selection {
+  color: #fff;
+  background-color: #333;
+}
+
+/* ==================头部样式============== */
+
+
+/* logo样式 */
+.logo {
+    margin: 15px 0px;
+}
+.logo a {
+    display: block;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px 0px;
+    font: 400 16px/20px 'simsun';
+    text-align: center;
+    text-decoration: none;
+}
+.logo a.logo-title {
+    background-color: #222;
+    color: #fff;
+}
+
+/* 导航栏样式 */
+.navbar-own {
+    background-color: #222;
+    border-color: #222;
+  }
+  .navbar-own .navbar-brand {
+    color: #fff;
+  }
+  .navbar-own .navbar-brand:hover,
+  .navbar-own .navbar-brand:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-own .navbar-text {
+    color: #777;
+  }
+  .navbar-own .navbar-nav > li > a {
+    color: #777;
+  }
+  .navbar-own .navbar-nav > li > a:hover,
+  .navbar-own .navbar-nav > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .navbar-own .navbar-nav > .active > a,
+  .navbar-own .navbar-nav > .active > a:hover,
+  .navbar-own .navbar-nav > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .navbar-own .navbar-nav > .disabled > a,
+  .navbar-own .navbar-nav > .disabled > a:hover,
+  .navbar-own .navbar-nav > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+  .navbar-own .navbar-nav > .open > a,
+  .navbar-own .navbar-nav > .open > a:hover,
+  .navbar-own .navbar-nav > .open > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  @media (max-width: 767px) {
+    .navbar-own .navbar-nav .open .dropdown-menu > li > a {
+      color: #777;
+    }
+    .navbar-own .navbar-nav .open .dropdown-menu > li > a:hover,
+    .navbar-own .navbar-nav .open .dropdown-menu > li > a:focus {
+      color: #333;
+      background-color: transparent;
+    }
+    .navbar-own .navbar-nav .open .dropdown-menu > .active > a,
+    .navbar-own .navbar-nav .open .dropdown-menu > .active > a:hover,
+    .navbar-own .navbar-nav .open .dropdown-menu > .active > a:focus {
+      color: #555;
+      background-color: #e7e7e7;
+    }
+    .navbar-own .navbar-nav .open .dropdown-menu > .disabled > a,
+    .navbar-own .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+    .navbar-own .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+      color: #ccc;
+      background-color: transparent;
+    }
+  }
+  .navbar-own .navbar-toggle {
+    border-color: #ddd;
+  }
+  .navbar-own .navbar-toggle:hover,
+  .navbar-own .navbar-toggle:focus {
+    background-color: #ddd;
+  }
+  .navbar-own .navbar-toggle .icon-bar {
+    background-color: #888;
+  }
+  .navbar-own .navbar-collapse,
+  .navbar-own .navbar-form {
+    border-color: #e7e7e7;
+  }
+  .navbar-own .navbar-link {
+    color: #777;
+  }
+  .navbar-own .navbar-link:hover {
+    color: #333;
+  }
+  .navbar-own .btn-link {
+    color: #777;
+  }
+  .navbar-own .btn-link:hover,
+  .navbar-own .btn-link:focus {
+    color: #333;
+  }
+  .navbar-own .btn-link[disabled]:hover,
+  fieldset[disabled] .navbar-own .btn-link:hover,
+  .navbar-own .btn-link[disabled]:focus,
+  fieldset[disabled] .navbar-own .btn-link:focus {
+    color: #ccc;
+  }
+  .nav-justified > li > a {
+      height: 49px;
+      line-height: 30px;
+      color: #fff;
+      border-top: 1px solid #222;
+  }
+  .nav > li > a:hover {
+      background-color: #fff;
+      color: #222;
+  }
+
+
+
+
+  /* ======================自然风光==================== */
+
+  #natural {
+    margin-top: 50px;
+    font: 400 14px/25px 'Microsoft yahei';
+    text-align: center
+  }
+  #natural h3 {
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+  .natural-content {
+    background-color: #f9f9f9;
+    padding: 50px 0px;
+  }
+  .natural-item {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    box-sizing: border-box;
+    border-radius: 20px;
+    border: 10px solid #f9f9f9;
+    padding: 0px;
+    overflow: hidden;
+  }
+  .natural-toggle {
+    position: absolute;
+    width: 100%;
+    left: 50%;
+    top: 0px;
+    margin-left: -50%;
+    opacity: 0;
+    transition: opacity 1.5s ease;
+  }
+  .natural-toggle:hover{
+    opacity: 1;
+  }
+  .natural-footer {
+    margin: 0 auto;
+    padding: 10px 0px;
+    font-size: 14px;
+    background-color: #fff;
+  }
+
+
+/*================旅游景区===================*/
+
+
+#travel {
+  padding-top: 50px;
+}
+#travel h3 {
+  font-weight: 700;
+  margin: 20px 0px;
+}
+.travel-header {
+  /*padding-bottom: 60px;*/
+  border-bottom: 1px solid #aaa;
+  margin-bottom: 30px;
+}
+.travel-info {
+  font-size: 13px;
+  line-height: 25px;
+  text-indent: 2em;
+  color: #333;
+}
+.travel-content {
+  margin-top: 60px;
+}
+.cl-pd {
+  padding: 0px;
+}
+.cl-mg {
+  margin: 0px;
+}
+.travel-item {
+  height: auto;
+  width: auto;
+}
+.travel-item img {
+  max-width: 100%;
+  height: auto;
+}
+.margin-clear {
+  margin: 0px;
+}
+.view-right {
+  padding-top: 30px;
+  text-align: center;
+}
+.view-right h4 {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+.view-right p {
+  line-height: 25px;
+}
+.view-link {
+  margin: 30px auto;
+  height: 50px;
+  width: 200px;
+  font: 700 16px/50px 'Microsoft yahei';
+  background-color: #333;
+  /*color: #fff;*/
+  cursor: pointer;
+}
+.view-link a {
+  color: #fff;
+  text-decoration: none;
+}
+.view-link:hover {
+  background-color: #000;
+}
+
+/*===============================风土人情=========================*/
+#local {
+  margin: 50px 0px;
+}
+.local-header h3 {
+  font-weight: 700;
+  text-align: center;
+}
+/*============================尾部==================================*/
+footer {
+  width: 100%;
+  height: 150px;
+  background-color: #333;
+  font: 400 16px/150px "Microsoft yahei";
+  text-align: center;
+  color: #fff;
+}
+/*===========================侧边栏==================================*/
+.cancat {
+  position: fixed;
+  right: 0px;
+  bottom: 50px;
+  display: none;
+}
+.cancat span {
+  display: block;
+  width: 50px;
+  height: 50px;
+  font: 400 16px/50px 'Microsoft yahei';
+  text-align: center;
+  border-top: 1px solid #fff;
+  border-radius: 5px;
+  background-color: #333;
+  color: #fff;
+  cursor: pointer;
+}
+.cancat span:nth-of-type(1){
+  border-top: none;
+}
+.font-big {
+  font-size: 20px !important;
+}

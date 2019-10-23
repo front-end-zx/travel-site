@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>View</title>
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./font/iconfont.css">
+</head>
+
+<body>
+    <!-- 头部部分 -->
+    <header>
+        <!-- logo部分 -->
+        <div class="logo">
+            <div class="container">
+                <a href="#">
+                    <img src="./images/logo.png" height="80px" alt="Scenery in shandong">
+                </a>
+                <a href="#" title="Scenery in shandong" class="logo-title">Scenery In Shandong</a>
+            </div>
+        </div>
+        <!-- 导航栏部分 -->
+        <nav class="navbar-own">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">首页</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav nav-justified">
+                        <li><a href="#natural">自然风光</a></li>
+                        <li><a href="#travel">旅游景区</a></li>
+                        <li><a href="#local">风土人情</a></li>
+                        <li><a href="#">欢迎来稿</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <!-- 轮播图部分 -->
+        <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="./images/view-1.jpg" alt="青岛栈桥">
+                </div>
+                <div class="item">
+                    <img src="./images/view-2.jpg" alt="威海风光">
+                </div>
+                <div class="item active">
+                    <img src="./images/view-3.jpg" alt="五岳泰山">
+                </div>
+                <div class="item">
+                    <img src="./images/view-4.jpg" alt="大明湖">
+                </div>
+            </div>
+
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </header>
+    <!-- 自然风光 -->
+    <section id="natural">
+        <div class="natural-header">
+            <div class="container">
+                <h3><span class="iconfont icon-jingse"></span>自然风光<span class="iconfont icon-jingse"></span></h3>
+                <p>山东的名胜古迹、山水风光举不胜举</p>
+                <p>这片伟大的土地不仅有名山大川、碧波万顷，而且在漫长的文明历史发展过程中孕育了非常灿烂的文明。</p>
+                <p>“万世师表”的孔孟故里，誉满天下的泰山，“泉城”济南……那深沉厚重的文化积淀，使游人如同走进了东方文明的历史宫殿；</p>
+                <p>“滨海明珠”青岛、烟台和威海的旖旎风光，也会使游客不舍得离开这一方宝地。</p>
+            </div>
+        </div>
+        <div class="natural-content">
+            <div class="container">
+                <div class="natural-wrap row">
+                    <div class="col-md-4 natural-item">
+                        <img src="./images/崂山-1.jpg" alt="崂山风景" class="imgW">
+                        <div class="natural-toggle">
+                            <img src="./images/崂山-2.jpg" alt="崂山风景">
+                        </div>
+                        <div class="natural-footer">
+                            <strong>山东&#10149;崂山</strong>
+                            <p>崂山巨峰</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 natural-item">
+                        <img src="./images/威海-1.jpg" alt="威海风景" class="imgW">
+                        <div class="natural-toggle">
+                            <img src="./images/威海-2.jpg" alt="威海风景">
+                        </div>
+                        <div class="natural-footer">
+                            <strong>山东&#10149;威海</strong>
+                            <p>小石岛景区</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 natural-item">
+                        <img src="./images/日出-1.jpg" alt="泰山日出" class="imgW">
+                        <div class="natural-toggle">
+                            <img src="./images/日出-2.jpg" alt="泰山日出">
+                        </div>
+                        <div class="natural-footer">
+                            <strong>山东&#10149;泰安</strong>
+                            <p>泰山日出</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 旅游景区 -->
+    <section id="travel">
+        <div class="travel-header container">
+            <h3 class="text-center"><span class="iconfont icon-lvyou"></span>&nbsp;旅游景区&nbsp;<span class="iconfont icon-lvyou"></span></h3>
+            <div class="row">
+                <div class="travel-info col-md-6">
+                    <p class="text-left">截至2013年，山东共有6处国家重点风景名胜区、10座国家历史文化名城（济南、曲阜、青岛、聊城、邹城、临淄、泰安、蓬莱、青州、烟台）、2座中国历史文化名村（济南市章丘区官庄乡朱家峪村、荣成市宁津街道办事处东楮岛村）、97处全国重点文物保护单位（包括齐长城和京杭大运河的山东段）、397处省级文物保护单位（含撤销1处）。</p>
+                </div>
+                <div class="travel-info col-md-6">
+                    <p class="text-left">2018年，旅游消费总额10461.2亿元，比上年增长13.7%。其中，国内游客消费增长13.8%，入境游客消费增长6.0%。星级旅游饭店637家，A级旅游景区1275家，旅行社2303家，新获国家评定5星级旅游饭店2家，国家级旅游度假区1家。省级以上旅游度假区46家，省级旅游强乡镇527个，省级旅游特色村1180个。全域旅游集散和咨询服务中心286处，跨界融合新业态旅游项目687个。</p>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid travel-content cl-pd">
+            <div class="travel-item">
+                <div class="row cl-mg">
+                    <div class="view-left col-md-6 cl-pd">
+                        <div><img src="./images/travel-1.jpg" alt="青岛栈桥"></div>
+                    </div>
+                    <div class="view-right col-md-6 cl-pd">
+                        <h4>青岛栈桥</h4>
+                        <p>青岛栈桥是青岛海滨风景区的景点之一，是首批国家AAAA级旅游景区</p>
+                        <p class="hidden-xs">桥南端筑半圆形防波堤，堤内建有民族形式的两层八角楼，名“回澜阁”，游人伫立阁旁，欣赏层层巨浪涌来</p>
+                        <p class="hidden-xs">桥北沿岸，辟为“栈桥公园”，园内花木扶疏，青松碧草，并设有石椅供游人憩坐，观赏海天景色</p>
+                        <div class="view-link"><a href="#">去看看 <span class="glyphicon glyphicon-hand-right"></span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-item">
+                <div class="row cl-mg">
+                    <div class="view-right col-md-6 cl-pd hidden-sm hidden-xs">
+                        <h4>孔子故里</h4>
+                        <p>曲阜孔庙是儒学崇拜的圣地，是中国古代祭孔活动的祭祀场所</p>
+                        <p class="hidden-xs">曲阜孔庙、孔林、孔府以满足世界文化遗产评定标准的一、四、五款而登录为<strong>世界文化遗产</strong></p>
+                        <p class="hidden-xs">深入的了解与探究儒家乃至中国古代思想文化的演变</p>
+                        <div class="view-link"><a href="#">去看看 <span class="glyphicon glyphicon-hand-right"></span></a></div>
+                    </div>
+                    <div class="view-left col-md-6 cl-pd">
+                        <div><img src="./images/travel-2.jpg" alt="青岛栈桥"></div>
+                    </div>
+                    <div class="view-right col-md-6 cl-pd hidden-md hidden-lg">
+                        <h4>孔子故里</h4>
+                        <p>曲阜孔庙是儒学崇拜的圣地，是中国古代祭孔活动的祭祀场所</p>
+                        <p class="hidden-xs">曲阜孔庙、孔林、孔府以满足世界文化遗产评定标准的一、四、五款而登录为<strong>世界文化遗产</strong></p>
+                        <p class="hidden-xs">深入的了解与探究儒家乃至中国古代思想文化的演变</p>
+                        <div class="view-link"><a href="#">去看看 <span class="glyphicon glyphicon-hand-right"></span></a></div>
+                    </div>
+                </div>
+            </div>
+            <div class="travel-item">
+                <div class="row cl-mg">
+                    <div class="view-left col-md-6 cl-pd">
+                        <div><img src="./images/travel-3.jpg" alt="青岛栈桥"></div>
+                    </div>
+                    <div class="view-right col-md-6 cl-pd">
+                        <h4>五岳之首</h4>
+                        <p>泰山，又名岱山、岱宗、岱岳、东岳、泰岳，为中国著名的五岳之首</p>
+                        <p class="hidden-xs">泰山是中华民族的象征，是东方文化的缩影，是“天人合一”思想的寄托之地，是中华民族精神的家园</p>
+                        <div class="view-link"><a href="#">去看看 <span class="glyphicon glyphicon-hand-right"></span></a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- 风土人情 -->
+    <section id="local">
+        <!-- 1.菜系 -->
+        <!-- 2.礼仪 -->
+        <!-- 3. -->
+        <div class="local-header">
+            <h3><span class="iconfont icon-shiwu"></span>&nbsp;风土人情&nbsp;<span class="iconfont icon-shiwu"></span></h3>
+        </div>
+    </section>
+    <!-- 尾部 -->
+    <footer>
+        <p>@小白</p>
+    </footer>
+    <!-- 侧边栏 -->
+    <div class="cancat">
+        <span data-toggle="tooltip" data-placement="left" title="1040862880@qq.com"><i class="iconfont icon-youxiang"></i></span>
+        <span id="backBtn" data-toggle="tooltip" data-placement="left" title="返回顶部"><i class="iconfont icon-fanhuidingbutopfill font-big"></i></span>
+    </div>
+    <script>
+        var a = 1;
+        var b = "3";
+        console.log(a+b);
+    </script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
